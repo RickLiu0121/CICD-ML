@@ -5,6 +5,9 @@ The CI (Continuous Integratioin) defines the actions following any update to the
 
 Reference: 
 Step by Step Guide: https://www.datacamp.com/tutorial/ci-cd-for-machine-learning
+
 GitHub Repository: https://github.com/kingabzpro/CICD-for-Machine-Learning
+
 Hugging Face Space: https://huggingface.co/spaces/kingabzpro/Drug-Classification
+
 Dataset: www.kaggle.com/datasets/prathamtripathi/drug-classification
