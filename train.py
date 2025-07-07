@@ -15,17 +15,17 @@ from sklearn.metrics import ConfusionMatrixDisplay, confusion_matrix
 
 drug_df = pd.read_csv("Data/drug200.csv")
 drug_df = drug_df.sample(frac=1)
-print (drug_df.head(3))
+print(drug_df.head(3))
 
-X = drug_df.drop("Drug", axis=1).values #X is the features of all data samples
-y = drug_df.Drug.values #y is the class labels
+X = drug_df.drop("Drug", axis=1).values  # X is the features of all data samples
+y = drug_df.Drug.values  # y is the class labels
 
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.3, random_state=125
 )
 
-cat_col = [1,2,3]
-num_col = [0,4]
+cat_col = [1, 2, 3]
+num_col = [0, 4]
 
 transform = ColumnTransformer(
     [
